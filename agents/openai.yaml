@@ -1,0 +1,5 @@
+interface:
+  display_name: "Record Knowledge"
+  short_description: "Turn useful information into durable knowledge records"
+  default_prompt: "Use $z-record-knowledge to decide what merits durable capture, route it, and verify the final record."
+
