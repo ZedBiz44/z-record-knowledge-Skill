@@ -38,6 +38,16 @@ Read `references/capture-decision.md` before creating a new record.
 - Keep distinct records when their owners, purposes, audiences, evidence standards, or lifecycles differ.
 - Use the current schema, template, naming rules, and required fields of the selected destination.
 
+## Use Memory As Supporting Context
+
+Read `references/memory-layer-routing.md` when an active memory provider, local agent memory, historical recall, or a memory conflict is relevant.
+
+- Use the agent's active memory provider when prior context may help the assignment.
+- Follow the organization's current provider inventory for assignments, banks, collections, sharing, privacy, and write rules.
+- Treat provider recall and local agent memory as supporting context, not final authority.
+- Verify important or changeable information against the live system or authoritative record before durable publication.
+- After meaningful work, store only a compact continuity pointer back to the authoritative record when the implementation profile requires a memory write.
+
 ## Route The Record
 
 Apply this hierarchy in order:
@@ -78,4 +88,4 @@ Do not call `z-small-bite-task` from this skill. It is independent everyday beha
 
 ## Completion
 
-Report records created, updated, combined, reused, or deliberately not created; their authoritative locations; evidence or confidence gaps; and any controlled-backlog item.
+Report records created, updated, combined, reused, or deliberately not created; their authoritative locations; evidence or confidence gaps; any controlled-backlog item; and any memory pointer written and verified.
