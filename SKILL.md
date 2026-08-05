@@ -46,7 +46,7 @@ Read `references/memory-layer-routing.md` when an active memory provider, local 
 - Follow the organization's current provider inventory for assignments, banks, collections, sharing, privacy, and write rules.
 - Treat provider recall and local agent memory as supporting context, not final authority.
 - Verify important or changeable information against the live system or authoritative record before durable publication.
-- After meaningful work, store only a compact continuity pointer back to the authoritative record when the implementation profile requires a memory write.
+- After meaningful work, store only a compact continuity pointer back to the authoritative record when the work boundary authorizes a memory write and the implementation profile requires it.
 
 ## Route The Record
 
