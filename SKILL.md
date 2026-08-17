@@ -89,3 +89,7 @@ Do not call `z-small-bite-task` from this skill. It is independent everyday beha
 ## Completion
 
 Report records created, updated, combined, reused, or deliberately not created; their authoritative locations; evidence or confidence gaps; any controlled-backlog item; and any memory pointer written and verified.
+
+## Governance and Operational Records
+
+The authoritative technical copy and current deployment evidence are maintained in the [ZedBiz source repository](https://github.com/ZedBiz44/z-record-knowledge-Skill). Keep implementation, security and rollback, validation, and pilot records in its `docs/` directory. Those operational records are not runtime instructions and are excluded from the generated package.
