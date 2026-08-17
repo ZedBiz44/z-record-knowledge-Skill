@@ -1,6 +1,6 @@
 # z-record-knowledge Pilot and Trigger-Test Record
 
-**Status:** Static package validation is required for this source revision. Target-platform pilot is pending and must complete before broader deployment.
+**Status:** Static package validation passed on `5ac3b776fae5`. Target-platform pilot is pending and must complete before broader deployment.
 
 ## Artifact and Environment
 
