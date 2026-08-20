@@ -26,3 +26,37 @@
 Use this representative safe pilot: Use a non-sensitive sample note with an already approved destination and preservation requirements.
 
 Before rollout, record the source commit, generated package path, target installation path, discovery result, expected behavior, actual behavior, evidence location, rollback owner, and confirmed procedure to restore the last known-good package.
+
+## 2026-08-20 Fleet Rollout
+
+**Status:** Fleet rollout passed.
+
+| Field | Value |
+|---|---|
+| Tested source commit | `3cc4aee` |
+| Runtime artifact | `dist/z-record-knowledge/` |
+| Approved scope | All current ZedBiz agents |
+| VPS1 agents | Amanda, Edith, Gohzed, Grogar, Inga, Maggie, Marsha, Terry, Victor, Vivian, Wilma |
+| VPS2 agents | Frank, Harry, Suzy |
+| VPS3/Hermes agent | Ruby |
+| VPS4/OpenClaw agent | Rocky |
+| VPS1 install path | `/home/node/.openclaw/workspace/skills/z-record-knowledge` inside each target container |
+| VPS2 install path | `/root/.openclaw-<agent>/workspace/skills/z-record-knowledge` |
+| Ruby install path | `/opt/hermes-ruby/skills/z-record-knowledge` on host and `/opt/data/skills/z-record-knowledge` in container |
+| Rocky install path | `/home/openclaw/.openclaw/workspace/skills/z-record-knowledge` |
+
+Validation evidence:
+
+- Local staged package passed structural validation before deployment.
+- VPS1 `openclaw skills list` reported `z-record-knowledge` ready for all 11 target agents.
+- VPS2 `openclaw skills list` reported `z-record-knowledge` ready for Frank, Harry, and Suzy.
+- Rocky `openclaw skills list` reported `z-record-knowledge` ready after using Rocky's explicit OpenClaw binary path.
+- Ruby/Hermes `hermes skills list` reported `z-record-knowledge` local and enabled.
+- Ruby's container could read `/opt/data/skills/z-record-knowledge/SKILL.md`.
+
+Rollback evidence:
+
+- VPS1 backup: `/tmp/zedbiz-skill-backups-20260820-125836`
+- VPS2 backup: `/root/zedbiz-skill-backups-20260820-125857`
+- Rocky backup: `/root/zedbiz-skill-backups-20260820-125909`
+- Ruby backup: `/opt/hermes-ruby/backups/skill-rollout-20260820-185922`
