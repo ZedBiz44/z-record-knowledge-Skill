@@ -23,6 +23,26 @@ Create a new record only when all of these gates pass:
 
 These are mandatory gates, not optional questions. If any gate fails, do not create a new record. Keep the finding in the current output, update a suitable record if justified, or record a controlled-backlog gap.
 
+## Operational Reuse Signals
+
+For tools, platforms, workflows, and support documentation, these signals can justify durable capture when the normal gates also pass:
+
+- repeatable procedures;
+- prerequisites and permissions;
+- roles and responsibilities;
+- decision points;
+- inputs and expected outputs;
+- validation steps;
+- exceptions and failure conditions;
+- manual fallbacks;
+- undocumented workarounds;
+- recurring questions and misunderstandings;
+- user-interface friction;
+- automation opportunities;
+- configurations or prompts that materially affect results.
+
+These signals identify material knowledge worth preserving. They do not automatically require a finished SOP, guide, or new record when an existing authoritative record can absorb the information.
+
 ## Analysis-Only Work
 
 Analysis may produce useful findings without authorizing a durable write. When the work boundary is read-only, provide the findings in chat or a clearly marked draft. Publish later only when authorized.

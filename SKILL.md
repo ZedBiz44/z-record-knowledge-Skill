@@ -60,6 +60,23 @@ Examples: research about a person normally belongs with the person; research sup
 
 Load the organization's routing or publishing skill only when that specialist procedure is required. Keep destination selection separate from record-type selection.
 
+## Apply Functional Storage Routing
+
+Choose the storage layer by what the information must do later:
+
+- Durable behavior rules belong in the agent's operating instructions only when they change future agent conduct. Keep them concise and stable.
+- Compact long-term memory files hold durable principles, owner context, and pointers to authoritative records.
+- Reviewed wiki or knowledge-base records hold structured tool knowledge, workflow facts, source-backed research, and reusable operational building blocks.
+- Episodic or working memory holds tactical lessons, recent friction, short reminders, and next-action pointers.
+- Technical source repositories hold code, configuration, skill source, package records, validation evidence, and technical change history.
+- Human-facing operating systems hold decisions, plans, summaries, SOPs, and business records intended for people.
+
+Raw harvested documentation, full transcripts, large research dumps, and copied manuals belong in approved source records, wiki pages, or source archives when preservation is authorized. Store only compact pointers in long-term or episodic memory.
+
+For documentation harvests, preserve the building blocks that make future work easier: repeatable procedures, prerequisites, permissions, decision points, inputs, outputs, validation steps, failure conditions, manual fallbacks, undocumented workarounds, recurring questions, UI friction, automation opportunities, and materially useful prompts or configurations. Treat these as importance signals for durable storage, not as an automatic instruction to create a finished SOP or guide.
+
+When a task is specifically support-documentation ingestion, use `z-support-doc-ingestion` only for a VPS1 shared-wiki OpenClaw assignment. Use `z-agent-knowledge-mapper` for VPS2, VPS3/Hermes, Rocky/VPS4, agent-local wiki setups, mirrored wiki setups, custom knowledge stores, or unfamiliar storage providers.
+
 ## Load Specialist Skills When Required
 
 - Load `z-knowledge-routing` when the authoritative destination is unclear or more than one home is plausible.

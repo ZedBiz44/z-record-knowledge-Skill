@@ -9,8 +9,19 @@ Use this reference when external provider recall, local agent memory, historical
 - **Reviewed knowledge layer:** durable agent-facing knowledge with provenance and maintenance rules.
 - **Technical source of truth:** version-controlled code, configuration, prompts, skill definitions, and technical history.
 - **Operational knowledge system:** approved human-facing business records, decisions, plans, and summaries.
+- **Operating instructions:** concise durable behavior rules that change future agent conduct.
+- **Source archive:** approved storage for raw source captures, transcripts, and large research evidence when preservation is authorized.
 
 The same subject may appear in more than one layer when each copy has a distinct job. Make the authoritative location clear and use links or compact pointers instead of copying the full record.
+
+## Functional Routing
+
+- Put durable execution rules in operating instructions only when the rule must guide future agent behavior.
+- Put high-level principles and pointers in compact long-term memory.
+- Put structured tool, workflow, API, UI, and troubleshooting knowledge in the reviewed wiki or knowledge base.
+- Put tactical lessons, runtime friction, recent surprises, and next actions in episodic or working memory.
+- Put code, configuration, skill source, validation evidence, package records, and technical history in the technical source repository.
+- Put business decisions, plans, summaries, SOPs, and human-facing operating records in the operational knowledge system.
 
 ## Recall And Verification
 
@@ -24,7 +35,8 @@ The same subject may appear in more than one layer when each copy has a distinct
 ## Promotion To Durable Knowledge
 
 - Apply the capture gates before promoting memory into a durable record.
-- Do not publish raw provider dumps, full transcripts, secrets, duplicated chatter, disposable calculations, or unsupported speculation.
+- Raw provider dumps, full transcripts, secrets, duplicated chatter, disposable calculations, and unsupported speculation are not suitable durable records.
+- Raw harvested documentation belongs in approved source records, wiki pages, or source archives when preservation is authorized, not in compact memory files.
 - Summarize and sanitize useful context. Preserve provenance when it helps a future reader verify the record.
 - Route by the owning subject and requested deliverable. The provider or source format does not select the destination.
 - Respect the work boundary. Recall does not authorize a durable write.
