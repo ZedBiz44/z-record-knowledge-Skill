@@ -60,3 +60,13 @@ Rollback evidence:
 - VPS2 backup: `/root/zedbiz-skill-backups-20260820-125857`
 - Rocky backup: `/root/zedbiz-skill-backups-20260820-125909`
 - Ruby backup: `/opt/hermes-ruby/backups/skill-rollout-20260820-185922`
+
+## 2026-08-26 Z-Knowledge Small Bite Pilot
+
+**Status:** Pilot and bounded rollout passed.
+
+- Inga was the pilot for the new rule requiring `z-small-bite-task` during Z-Knowledge research.
+- The exact instruction, gateway restart, channel startup, and discovery of both dependent skills passed.
+- The rule was then rolled out to all 11 VPS1 agents and all three VPS2 agents with timestamped backups.
+- Ruby and Rocky were deliberately held back because `z-small-bite-task` is not currently installed there.
+- See [the rollout record](rollouts/2026-08-26-z-knowledge-small-bite-trigger.md) for evidence and rollback details.
