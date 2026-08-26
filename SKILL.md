@@ -85,7 +85,7 @@ When a task is specifically support-documentation ingestion, use `z-support-doc-
 - Load `z-wiki-research` for substantial source-backed wiki research, conflicting evidence, important verification, or a durable wiki synthesis.
 - Use the environment's `wiki-maintainer` when a wiki record needs technical maintenance without new research.
 
-For Z-Knowledge research, load `z-small-bite-task`, but use only the minimum number of meaningful bites needed for safe completion.
+For Z-Knowledge research, load `z-small-bite-task` and use only the minimum meaningful bites required.
 
 ## Handle Historical Gaps
 
