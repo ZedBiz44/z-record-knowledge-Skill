@@ -24,7 +24,8 @@ Knowledge capture supports the assignment; it never expands the assignment's aut
 
 Read `references/capture-decision.md` before creating a new record.
 
-- Search before creating.
+- For Z-Knowledge work, search only the approved Z-Knowledge Content databases. Treat Brief as the foundational record: improve a suitable existing Brief or create one when none exists. Use another Page-Type only when the requested deliverable has a different purpose.
+- For other durable systems, search the relevant authoritative location before creating.
 - Update a suitable existing record when the information materially improves it.
 - Create a new record only when every new-record gate passes.
 - Do not create records for acknowledgements, passing mentions, duplicated discussion, unsupported speculation, secrets, raw transient logs, or disposable intermediate work.
@@ -33,7 +34,7 @@ Read `references/capture-decision.md` before creating a new record.
 
 - Identify the requested outcome, owning subject or initiative, evidence, and intended future use.
 - Separate source statements, verified facts, conclusions, recommendations, uncertainty, and open questions.
-- Preserve original source material when preservation is required. Put transformations or syntheses in a derivative record rather than silently rewriting the source.
+- Preserve imported or Jack-authored source material. Put transformations, rewrites, or separate syntheses in a derivative record.
 - Combine related notes when one coherent record is more useful than several fragments.
 - Keep distinct records when their owners, purposes, audiences, evidence standards, or lifecycles differ.
 - Use the current schema, template, naming rules, and required fields of the selected destination.
@@ -83,6 +84,7 @@ When a task is specifically support-documentation ingestion, use `z-support-doc-
 - Load `z-code-allocation` before any governed lookup, reservation, confirmation, failure, or status check for an authoritative record code.
 - Load `z-notion-knowledge-publish` before creating, moving, or materially updating a governed Notion record.
 - Load `z-wiki-research` for substantial source-backed wiki research, conflicting evidence, important verification, or a durable wiki synthesis.
+- Load `z-biz-plan` when the requested outcome is an executable business, marketing, and action plan. Use Brief or Research when the work remains an overview, investigation, comparison, or evidence package.
 - Use the environment's `wiki-maintainer` when a wiki record needs technical maintenance without new research.
 
 For Z-Knowledge research, load `z-small-bite-task` and use only the minimum meaningful bites required.
