@@ -11,7 +11,7 @@ This repository is the technical source of truth for `z-record-knowledge`, which
 
 ## When Not to Use It
 
-- Use it for disposable chat notes, unverified claims, or a record that duplicates an existing canonical source.
+- Do not use this skill for disposable chat notes, unverified claims, or a record that duplicates an existing canonical source.
 - Turn raw model memory, transcripts, or private data into durable knowledge without review and sanitization.
 - Publish research findings before source quality, confidence, and ownership are clear.
 
@@ -39,7 +39,7 @@ Validate on the actual target runtime after installation. Do not assume discover
 
 ## Safety and Approval Boundaries
 
-For Z-Knowledge work, search only approved Z-Knowledge Content databases, preserve imported or Jack-authored sources, and verify that a matching record represents the same subject and purpose. Apply the destination’s privacy and approval controls.
+For Z-Knowledge work, search only approved Z-Knowledge Content databases, preserve imported or Jack-authored sources, and verify that a matching record represents the same subject and purpose. Keep secrets and private data out of inappropriate destinations, and follow required approval controls.
 
 ## Status and Contributions
 
