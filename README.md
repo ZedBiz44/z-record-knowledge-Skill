@@ -7,6 +7,7 @@ This repository is the technical source of truth for `z-record-knowledge`, which
 - Create, improve, research, or store a reusable record whose value extends beyond the immediate task.
 - Decide whether a fact, decision, workflow, source-backed finding, or reusable asset should be captured durably.
 - Route a validated record to the right specialist skill or functional storage location.
+- For Z-Knowledge work, improve or create the foundational Brief and use another Page-Type only for a different deliverable.
 
 ## When Not to Use It
 
@@ -29,16 +30,16 @@ This repository is the technical source of truth for `z-record-knowledge`, which
 Run the repository validation before release or installation. Build a deployable package only when the target runtime or approved rollout requires one.
 
 ```bash
-python3 scripts/validate_skill.py .
+python3 <z-ai-skill-developer-root>/scripts/validate_skill.py --repository .
 bash scripts/build_package.sh
-python3 scripts/validate_skill.py dist/z-record-knowledge
+python3 <z-ai-skill-developer-root>/scripts/validate_skill.py dist/z-record-knowledge
 ```
 
 Validate on the actual target runtime after installation. Do not assume discovery paths, credentials, or platform behaviour without checking the live environment.
 
 ## Safety and Approval Boundaries
 
-Search before creating, distinguish evidence from conclusions, and apply the destination’s privacy and approval controls. Store only the durable, reusable information that the evidence supports.
+For Z-Knowledge work, search only approved Z-Knowledge Content databases, preserve imported or Jack-authored sources, and verify that a matching record represents the same subject and purpose. Apply the destination’s privacy and approval controls.
 
 ## Status and Contributions
 
