@@ -24,7 +24,7 @@ Knowledge capture supports the assignment; it never expands the assignment's aut
 
 Read `references/capture-decision.md` before creating a new record.
 
-- For Z-Knowledge work, search only the approved Z-Knowledge Content databases. Treat Brief as the foundational record: improve a suitable existing Brief or create one when none exists. Use another Page-Type only when the requested deliverable has a different purpose.
+- For Z-Knowledge work, search only the approved Z-Knowledge Content databases. The requested deliverable selects Page-Type. Do not create a Brief merely because one does not already exist.
 - For other durable systems, search the relevant authoritative location before creating.
 - Update a suitable existing record when the information materially improves it.
 - Create a new record only when every new-record gate passes.
@@ -87,8 +87,6 @@ When a task is specifically support-documentation ingestion, use `z-support-doc-
 - Load `z-biz-plan` when the requested outcome is an executable business, marketing, and action plan. Use Brief or Research when the work remains an overview, investigation, comparison, or evidence package.
 - Use the environment's `wiki-maintainer` when a wiki record needs technical maintenance without new research.
 
-For Z-Knowledge research, load `z-small-bite-task` and use only the minimum meaningful bites required.
-
 ## Handle Historical Gaps
 
 - Record a discovered missing or incomplete historical item as a gap.
@@ -112,3 +110,4 @@ Report records created, updated, combined, reused, or deliberately not created; 
 ## Governance and Operational Records
 
 The authoritative technical copy and current deployment evidence are maintained in the [ZedBiz source repository](https://github.com/ZedBiz44/z-record-knowledge-Skill). Keep implementation, security and rollback, validation, and pilot records in its `docs/` directory. Those operational records are not runtime instructions and are excluded from the generated package.
+
