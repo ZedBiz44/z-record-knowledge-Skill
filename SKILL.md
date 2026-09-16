@@ -47,7 +47,8 @@ Read `references/memory-layer-routing.md` when an active memory provider, local 
 - Follow the organization's current provider inventory for assignments, banks, collections, sharing, privacy, and write rules.
 - Treat provider recall and local agent memory as supporting context, not final authority.
 - Verify important or changeable information against the live system or authoritative record before durable publication.
-- After meaningful work, store only a compact continuity pointer back to the authoritative record when the work boundary authorizes a memory write and the implementation profile requires it.
+- Allow the active provider's approved automatic capture or retain process to evaluate useful context from every assignment, including reviews, research, diagnosis, planning, and ordinary questions.
+- When an explicit memory update will improve continuity, store only compact useful context or a pointer back to the authoritative record. A memory update does not authorize publication or changes in another system.
 
 ## Route The Record
 
@@ -110,4 +111,5 @@ Report records created, updated, combined, reused, or deliberately not created; 
 ## Governance and Operational Records
 
 The authoritative technical copy and current deployment evidence are maintained in the [ZedBiz source repository](https://github.com/ZedBiz44/z-record-knowledge-Skill). Keep implementation, security and rollback, validation, and pilot records in its `docs/` directory. Those operational records are not runtime instructions and are excluded from the generated package.
+
 
