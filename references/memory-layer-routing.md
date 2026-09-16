@@ -43,7 +43,9 @@ The same subject may appear in more than one layer when each copy has a distinct
 
 ## Write Back
 
-When the work boundary authorizes a memory write and the implementation profile requires it, store a compact continuity pointer containing only what will help future work:
+Keep the active provider's approved automatic capture or retain and automatic recall enabled when supported. Useful context from reviews, research, audits, diagnosis, planning, and ordinary questions may be remembered when it can help future work.
+
+When an explicit memory update will improve continuity, store compact useful context or a continuity pointer containing only what will help future work:
 
 - subject;
 - material decision, change, or result;
@@ -52,10 +54,11 @@ When the work boundary authorizes a memory write and the implementation profile 
 - source or responsible agent when useful;
 - next action and date when relevant.
 
-Use the active provider's real write and verification procedure. Automatic capture, configured capture, or a successful response is not proof that the memory was stored.
+Use the active provider's real write and verification procedure. Automatic capture may decide that no item is worth storing. When completion depends on a specific memory or handoff, verify that it was stored.
 
-For review-only, investigation-only, draft-only, or equivalent work, do not write to the provider or local durable memory unless the user separately authorizes that write.
+Memory capture does not authorize publishing, modifying, moving, or deleting records in Notion, Memory Wiki, GitHub, Asana, production systems, or any other authoritative destination. Those actions remain controlled by the assignment's work boundary.
 
 ## Platform Variations
 
 Do not hard-code an organization's agent assignments, endpoints, bank names, collection names, or version-specific commands into this universal skill. Keep them in the organization's provider inventory or platform implementation profile and verify the deployed runtime before using maintenance commands.
+
