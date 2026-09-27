@@ -7,17 +7,17 @@ Use this reference when external provider recall, local agent memory, historical
 - **Active memory provider:** fast working recall and cross-session continuity.
 - **Local agent memory:** agent-specific daily notes, curated context, and other workspace memory artifacts supported by the active platform.
 - **Reviewed knowledge layer:** durable agent-facing knowledge with provenance and maintenance rules.
-- **Technical source of truth:** version-controlled code, configuration, prompts, skill definitions, and technical history.
+- **Technical source of truth:** version-controlled code, configuration, skill definitions, and technical history.
 - **Operational knowledge system:** approved human-facing business records, decisions, plans, and summaries.
 - **Operating instructions:** concise durable behavior rules that change future agent conduct.
 - **Source archive:** approved storage for raw source captures, transcripts, and large research evidence when preservation is authorized.
 
-The same subject may appear in more than one layer when each copy has a distinct job. Make the authoritative location clear and use links or compact pointers instead of copying the full record.
+The same subject may appear in more than one layer when each copy has a distinct job. Make the authoritative location clear and retain concise substantive facts with source links without copying the full record.
 
 ## Functional Routing
 
 - Put durable execution rules in operating instructions only when the rule must guide future agent behavior.
-- Put high-level principles and pointers in compact long-term memory.
+- Put durable facts, decisions, preferences, principles, and source links in compact long-term memory.
 - Put structured tool, workflow, API, UI, and troubleshooting knowledge in the reviewed wiki or knowledge base.
 - Put tactical lessons, runtime friction, recent surprises, and next actions in episodic or working memory.
 - Put code, configuration, skill source, validation evidence, package records, and technical history in the technical source repository.
@@ -45,7 +45,7 @@ The same subject may appear in more than one layer when each copy has a distinct
 
 Keep the active provider's approved automatic capture or retain and automatic recall enabled when supported. Useful context from reviews, research, audits, diagnosis, planning, and ordinary questions may be remembered when it can help future work.
 
-When an explicit memory update will improve continuity, store compact useful context or a continuity pointer containing only what will help future work:
+When an explicit memory update will improve continuity, save substantive useful context containing what will help future work:
 
 - subject;
 - material decision, change, or result;
@@ -54,9 +54,21 @@ When an explicit memory update will improve continuity, store compact useful con
 - source or responsible agent when useful;
 - next action and date when relevant.
 
-Use the active provider's real write and verification procedure. Automatic capture may decide that no item is worth storing. When completion depends on a specific memory or handoff, verify that it was stored.
+Use the active provider's real write and verification procedure. Automatic capture may skip useful facts. Explicitly save important instructions, corrections, decisions, blockers, verified results, and handoffs. Read the saved content back through the provider before claiming it is remembered; an accepted asynchronous operation is not completed retention. Preserve the operation ID and check completion or retrieval. Before retrying an uncertain write, check whether it already succeeded.
 
 Memory capture does not authorize publishing, modifying, moving, or deleting records in Notion, Memory Wiki, GitHub, Asana, production systems, or any other authoritative destination. Those actions remain controlled by the assignment's work boundary.
+
+## Corrections, Continuity, And Handoffs
+
+- Include the actual fact or decision, its reason when known, project, responsible agent, event date, status, next action, and exact source URL or identifier. A topic list or source title alone fails retention.
+- Distinguish user decisions from suggestions, approved facts from review-pending material, and verified results from reported claims. Never invent missing metadata.
+- Use the source identifier and subject to find an existing record. Update it when supported. Otherwise save a dated correction that identifies which prior claim is superseded; do not silently erase historical evidence.
+- Keep one coherent record per subject and event. Use a stable document identifier and replace/update semantics when supported; check completion before retrying. Do not repeatedly ingest a full conversation.
+- In the existing daily note, update the active assignment after meaningful changes and before handoff: objective, latest decision, completed work, next action, owner, waiting on, source, last updated. This is a section of the platform's existing daily file, not a new memory store.
+- On resumption, read that daily entry directly and recall related provider history. Check date, ownership, source, and later corrections before acting. Promote lasting facts to existing curated memory; preserve daily history under the existing retention policy, without introducing deletion schedules.
+- Workers return substantive results and their evidence to the main agent. The main agent saves and reads back the handoff within its own authorized scope. Do not assume worker, scheduled-job, channel, or main scopes share recall. Never widen private-memory access to make a test pass.
+- If external recall or capture fails, write and read back the existing local daily entry, report the provider as degraded, and use authoritative sources when safe. Local success does not prove external success. Reconcile when the provider is restored, avoiding duplicates.
+- Use provider-specific tools when generic native and external tools have ambiguous names. Identify which store returned the result; an empty native search does not prove the external bank is empty.
 
 ## Platform Variations
 
