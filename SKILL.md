@@ -48,7 +48,7 @@ Read `references/memory-layer-routing.md` when an active memory provider, local 
 - Treat provider recall and local agent memory as supporting context, not final authority.
 - Verify important or changeable information against the live system or authoritative record before durable publication.
 - Allow the active provider's approved automatic capture or retain process to evaluate useful context from every assignment, including reviews, research, diagnosis, planning, and ordinary questions.
-- When an explicit memory update will improve continuity, store only compact useful context or a pointer back to the authoritative record. A memory update does not authorize publication or changes in another system.
+- When an explicit memory update will improve continuity, save the substantive facts, decisions, corrections, ownership, status, and next action with a source link. A memory update does not authorize publication or changes in another system.
 
 ## Route The Record
 
@@ -73,7 +73,7 @@ Choose the storage layer by what the information must do later:
 - Technical source repositories hold code, configuration, skill source, package records, validation evidence, and technical change history.
 - Human-facing operating systems hold decisions, plans, summaries, SOPs, and business records intended for people.
 
-Raw harvested documentation, full transcripts, large research dumps, and copied manuals belong in approved source records, wiki pages, or source archives when preservation is authorized. Store only compact pointers in long-term or episodic memory.
+Raw harvested documentation, full transcripts, large research dumps, and copied manuals belong in approved source records, wiki pages, or source archives when preservation is authorized. Store concise substantive facts and decisions with source links in long-term or episodic memory. A title, topic list, or link without the useful fact is insufficient.
 
 For documentation harvests, preserve the building blocks that make future work easier: repeatable procedures, prerequisites, permissions, decision points, inputs, outputs, validation steps, failure conditions, manual fallbacks, undocumented workarounds, recurring questions, UI friction, automation opportunities, and materially useful prompts or configurations. Treat these as importance signals for durable storage, not as an automatic instruction to create a finished SOP or guide.
 
